@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 /*nav bar*/
 .navbar{
@@ -12,7 +13,6 @@
     color: white;
 }
 .brand-title {
-    font-family: sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 1.5px;
@@ -34,7 +34,7 @@
     display: block;
 }
 .navbar-links li:hover{
-    background-color: #555;
+    background-color: #489CB7;
 }
 .toggle-button {
     position: absolute;
@@ -53,12 +53,100 @@
     border-radius: 10px;
 }
 /*content*/
-
-
+.content-title{
+    width: 100%;
+    padding: 15px 120px;
+    display: flex;
+}
+.content-title h4{
+    width: 300px;
+    margin-top: 4px;
+}
+.content-title-div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-title-div button{
+    padding: 5px 10px;
+    border: 2px solid #93C2D1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content-container{
+    width: 100%;
+    height: auto;
+    padding: 5px 100px;
+}
+.content-con-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-con{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.content-con img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.content-detail{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    opacity: 0.7;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.content-detail-event{
+    
+}
+.content-detail p:nth-child(1){
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+.content-detail p:nth-child(2){
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-expired{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in;
+}
+.content-con:hover .content-expired{
+    transform: translateY(0);
+}
 /*footer*/
 footer{
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     background-color: #93C2D1;
     color: white;
     padding: 10px 30px;
@@ -72,15 +160,19 @@ footer h2{
 footer div{
     width: auto;
     height: 100%;
-    padding: 5px 25px;
+    padding: 10px 25px;
     text-align: center;
 }
 footer div i{
     padding: 5px;
     cursor: pointer;
 }
-
-@media (max-width: 600px) {
+@media screen and (max-width:650px){
+    .content-title{
+        padding: 15px 100px;
+    }
+}
+@media screen and (max-width: 600px) {
     .toggle-button{
         display: flex;
     }
@@ -105,20 +197,44 @@ footer div i{
     .navbar-links.active{
         display: flex;
     }
+    .content-container{
+        padding: 5px 30px;
+    }
+    .content-con{
+        width: 190px;
+        height: 240px;
+    }
 }
-@media screen and (max-width:514px){
+@media screen and (max-width:524px){
     footer{
-        height: 15vh;
+        height: 13vh;
     }
     footer div{
-        padding: 20px 20px;
+        padding-top: 3px;
+    }
+    .content-container{
+        padding: 5px 20px;
+    }
+    .content-con{
+        width: 180px;
+        height: 230px;
     }
 }
-@media screen and (max-width:414px){
-    footer h2{
-        padding: 0px 15px;
+@media screen and (max-width:411px){
+    footer{
+        height: 16vh;
     }
-    footer div{
-        padding: 20px 15px;
+    footer h2{
+        font-size: 20px;
+    }
+    .content-title{
+        padding: 15px 50px;
+    }
+    .content-container{
+        padding: 5px 10px;
+    }
+    .content-con{
+        width: 150px;
+        height: 200px;
     }
 }
