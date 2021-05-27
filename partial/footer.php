@@ -1,7 +1,7 @@
 <?php
 
     echo '
-    <footer>
+    <footer id="footer">
     <h2>X Titan © 2021</h2>
     <div>
         <h4>Contact Us</h4>

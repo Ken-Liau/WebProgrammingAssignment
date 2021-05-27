@@ -1,0 +1,53 @@
+.home{
+    height: 80vh;
+    background-image: url('../img/home2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.5rem;
+    color: white;
+}
+.home h1, .home p, .home h3{
+    width: 70%;
+}
+.home h1{
+    font-weight: bold;
+    font-size: 120px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.home p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.home h3{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+@media (max-width: 700px){
+    .home{
+        background-image: url('../img/home.jpg');
+        padding: 3.5rem 30px 0px 30px;
+    }
+    .home h1, .home p, .home h3{
+        width: auto;
+    }
+    .home h1{
+        font-size: 90px;
+    }
+    .home p{
+        font-size: 30px;
+    }
+    .home h3{
+        font-size: 15px;
+    }
+}

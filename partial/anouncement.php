@@ -20,7 +20,7 @@
             </div>
             <div class="content-con-div">
                 <div class="content-con">
-                    <img src="img/promotion.jpg" alt="" srcset="">
+                    <img src="img/sales.jpg" alt="" srcset="">
                     <div class="content-detail">
                         <p>Product Name</p>
                         <p>30% Off</p>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="content-con">
-                    <img src="img/promotion.jpg" alt="" srcset="">
+                    <img src="img/sales.jpg" alt="" srcset="">
                     <div class="content-detail">
                         <p>Product Name</p>
                         <p>30% Off</p>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="content-con">
-                    <img src="img/promotion.jpg" alt="" srcset="">
+                    <img src="img/sales.jpg" alt="" srcset="">
                     <div class="content-detail">
                         <p>Product Name</p>
                         <p>30% Off</p>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="content-con">
-                    <img src="img/promotion.jpg" alt="" srcset="">
+                    <img src="img/sales.jpg" alt="" srcset="">
                     <div class="content-detail">
                         <p>Product Name</p>
                         <p>30% Off</p>
@@ -106,7 +106,7 @@
                     <h2 class="element-title">Promotion</h2>
                     <div class="content-con-div">
                         <div class="content-con">
-                            <img src="img/promotion.jpg" alt="" srcset="">
+                            <img src="img/sales.jpg" alt="" srcset="">
                             <div class="content-detail">
                                 <p>Product Name</p>
                                 <p>30% Off</p>

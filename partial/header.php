@@ -13,7 +13,7 @@ echo '
             <li><a href="?link=home">Home</a></li>
             <li><a href="?link=anouncement">Announcement</a></li>
             <li><a href="?link=about">About Us</a></li>
-            <li><a href="?link=contact">Contact</a></li>
+            <li><a href="#footer">Contact</a></li>
         </ul>
     </div>
     </nav>';
