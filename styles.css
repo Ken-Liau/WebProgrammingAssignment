@@ -1,11 +1,67 @@
 *{
-    box-sizing: border-box;
-}
-body{
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
-.navbar{
+body{
+    /* margin: 0;
+    padding: 0; */
+    background: url(./img/pexels-anna-shvets-3962294.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 35%;
+    padding-top: 85px;
+    color: white;
+}
+.home h1{
+    font-weight: bold;
+    font-size: 120px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.home p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.home h3{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+@media (max-width: 700px){
+    body{
+        /* margin: 0;
+        padding: 0; */
+        background: url(./img/pexels-anna-shvets-3962291.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .home h1{
+        font-size: 90px;
+
+    }
+    .home p{
+        font-size: 30px;
+    }
+    .home h3{
+        font-size: 15px;
+    }
+
+    
+}
+/* .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,5 +133,5 @@ body{
     }
     .navbar-links.active{
         display: flex;
-    }
-}
+    } */
+/* } */
