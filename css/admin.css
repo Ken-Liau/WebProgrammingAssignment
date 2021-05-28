@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+}
+.button-container{
+    position: relative;
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container div{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #93C2D1;
+    transition: 0.3s ease-in;
+}
+.button-container button{
+    position: relative;
+    margin: 0px 20px;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.form-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form-container h3{
+    width: 100%;
+    text-align: center;
+}
+.form-container form{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form-container label{
+    margin: 10px 0px;
+}
+.form-container input{
+    height: 30px;
+    padding: 0 10px;
+}
+.form-container select{
+    height: 30px;
+    padding: 0 10px;
+}
+.form-container input:focus{
+    outline: none;
+}
+.form-container button{
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-container input:focus{
+    outline: none;
+}
+#promotion-form{
+    display: none;
+}
+#event-form{
+    display: none;
+}
+
+/*show record*/
+.show-record{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 30px 0;
+}
+.show-record h2{
+    margin-top: 30px;
+}
+.show-record table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+.show-record thead tr {
+    background-color: #93C2D1;
+    color: #ffffff;
+    text-align: left;
+}
+.show-record th, .show-record td {
+    padding: 12px 15px;
+}
+.show-record td i{
+    color: black;
+    cursor: pointer;
+}
+th:last-child,td:last-child,th:nth-last-child(2),td:nth-last-child(2) {
+    text-align: center;
+}
+
+.show-record tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.show-record tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.show-record tbody tr:last-of-type {
+    border-bottom: 2px solid #93C2D1;
+}
+.show-record tbody tr.active-row {
+    font-weight: bold;
+    color: #93C2D1;
+}

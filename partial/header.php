@@ -10,11 +10,12 @@ echo '
     </a>
     <div class="navbar-links">
         <ul>
-            <li><a href="#">Promotions</a></li>
-            <li><a href="#">Discounts</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="?link=home">Home</a></li>
+            <li><a href="?link=anouncement">Announcement</a></li>
+            <li><a href="?link=about">About Us</a></li>
+            <li><a href="#footer">Contact</a></li>
         </ul>
     </div>
-    </nav>'
-
+    </nav>';
+    
 ?>
