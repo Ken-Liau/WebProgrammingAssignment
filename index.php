@@ -7,6 +7,7 @@
     <title>X Titan E-Commerce</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
@@ -21,7 +22,7 @@
         if($link == "anouncement"){
             include_once('partial/anouncement.php');
         }else if($link == "about"){
-            
+            include_once('partial/about.php');
         }else{
             include_once('partial/home.php');
         }

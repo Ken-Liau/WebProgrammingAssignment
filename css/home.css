@@ -1,9 +1,10 @@
 .home{
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
     background-image: url('../img/home2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
