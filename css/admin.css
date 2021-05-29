@@ -3,12 +3,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 50px;
-}
 .button-container{
     position: relative;
     width: auto;
@@ -37,6 +31,8 @@ body{
     cursor: pointer;
 }
 .form-container{
+    margin-left: auto;
+    margin-right: auto;
     width: auto;
     height: auto;
     display: flex;

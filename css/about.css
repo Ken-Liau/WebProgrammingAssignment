@@ -27,11 +27,12 @@
 }@media (max-width: 700px){
     .about{
         background-image: url('../img/grey.jpg');
+        padding-top: 50px;
     }
     .about h1{
         font-size: 65px;
     }
     .about p{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
