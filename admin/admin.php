@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/admin_second.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
@@ -54,9 +55,9 @@
                     <option value="80%">80%</option>
                     <option value="90%">90%</option>
                 </select>
-                <label for="">Discount Start Date: </label>
+                <label for="">Discount Start Time: </label>
                 <input type="time" name="time-start">
-                <label for="">Discount Expired Date: </label>
+                <label for="">Discount Expired Time: </label>
                 <input type="time" name="time-expired">
                 <button name="submit-discount" id="submit_discount">Submit</button>
             </form>
